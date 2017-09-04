@@ -7,7 +7,9 @@ cout << "enter an alphabet\n";
 cin >> a;
 if(a>='A' && a<='Z')
 cout << a <<" is an uppercase alphabet\n";
-else
+else if(a>='a' && a<='z')
 cout << a <<" is a lowercase alphabet \n";
+else 
+cout << a <<" is not an alphabet\n";
 return 0;
 }
