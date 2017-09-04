@@ -9,6 +9,6 @@ cin >> a;
 if(a%4==0)
 cout << a <<" is a leap year\n";
 else
-cout << a <<"is a general year\n";
+cout << a <<" is a general year\n";
 return 0;
 }
