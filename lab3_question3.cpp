@@ -10,6 +10,6 @@ cout << a <<" is positive\n";
 else if(a<0)
 cout << a <<" is negative\n";
 else
-cout << a <<"is zero\n";
+cout << a <<" is zero\n";
 return 0;
 }
