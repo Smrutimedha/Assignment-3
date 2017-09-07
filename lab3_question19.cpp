@@ -2,20 +2,30 @@
 using namespace std;
 int main()
 {
-	int marks;
-	cout<<"Enter Marks:\n";
-	cin>>marks;
-	if(marks>=90 && marks<=100)
+	int m1, m2, m3, m4, m5,sum,percentage;
+	cout<<"Enter Marks in mathematics out of 100:\n";
+	cin>>m1;
+	cout<<"Enter Marks in Physics out of 100:\n";
+	cin>>m2;
+	cout<<"Enter Marks in chemistry out of 100:\n";
+	cin>>m3;
+	cout<<"Enter Marks in biology out of 100:\n";
+	cin>>m4;
+	cout<<"Enter Marks in computer out of 100:\n";
+	cin>>m5;
+	sum=(m1+m2+m3+m4+m5);
+	percentage=(sum/500)*100;
+	if(percentage>=90 && percentage<=100)
 		cout<<"Your Grade is A";
-	else if(marks>=80 && marks<90)
+	else if(percentage>=80 && percentage<90)
 		cout<<"Your Grade is B";
-	else if(marks>=70 && marks<80)
+	else if(percentage>=70 && percentage<80)
 		cout<<"Your Grade is C";
-	else if(marks>=60 && marks<70)
+	else if(percentage>=60 && percentage<70)
 		cout<<"Your Grade is D";
-	else if(marks>=40 && marks<60)
+	else if(percentage>=40 && percentage<60)
 		cout<<"Your Grade is E";
-	else if(marks>=0 && marks<40)
+	else if(percentage>=0 && percentage<40)
 		cout<<"Your Grade is F";
 	else
 		cout<<"Invalid Marks.";	
